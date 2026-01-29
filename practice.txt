@@ -1,0 +1,611 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Install the latest PowerShell for new features and improvements! https://aka.ms/PSWindows
+
+(.venv) PS C:\Users\91989\PycharmProject\Final_Practice> wsl
+Welcome to Ubuntu 22.04.5 LTS (GNU/Linux 6.6.87.2-microsoft-standard-WSL2 x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/pro
+
+ System information as of Tue Jan 27 08:54:36 IST 2026
+
+  System load:  3.86                Processes:             25
+  Usage of /:   0.3% of 1006.85GB   Users logged in:       0
+  Memory usage: 9%                  IPv4 address for eth0: 172.19.39.50
+  Swap usage:   0%
+
+  => There are 10 zombie processes.
+
+ * Strictly confined Kubernetes makes edge and IoT secure. Learn how MicroK8s
+   just raised the bar for easy, resilient and secure K8s cluster deployment.
+
+   https://ubuntu.com/engage/secure-kubernetes-at-the-edge
+
+This message is shown once a day. To disable it please create the
+/home/parmeet/.hushlogin file.
+parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice$ cd Practice_Git
+parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice/Practice_Git$ ls
+README.md  example.txt  main.py  pyproject.toml
+parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice/Practice_Git$ vim example.txt
+parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice/Practice_Git$ shred example.txt
+parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice/Practice_Git$ nano example.txt
+parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice/Practice_Git$ cat example.txt
+emdsnfmdnfjgndjfgjmfnmnxmdbgfnxgbm�L;N1��g�`�4���a�Q�
+                                                     �4#�ݡ�C�A$��?�ڜ�e#�����2�+�v
+                                                                                 �޼�pI��272��8��H���Gm�%F*�X�s�&++܉�������i�O=ش��G��̼���I��"7֒S�_i���c�ƌT��U�P��ݧQ�ADOY�0R��#�����o�$��;9��傑~�V��[�����x���@�^�O�ĝ!�b�9kq�Og5i)��#m���O��gY"o��
+                                                                                        ih��X����*b7z���eT!�,q�l�1�K�X1w
+                                                                                                                        ��4d�"�H��'��O�>{
+                                                                                                                                         ��
+                                                                                                                                           aڔtU���w�s��Q���$C�̈��|�=�V    o�P�t��=��Ma�^[3KP�%fOV��"�sc`��>13,v��,�k!��(N*D�e�)��(�t�iz�؆����V���
+�ql���
+B�I��^�|��{��(��P�U!&h�����o�i�q���:��Wl��4v��iT��������!�ERjdqve.�@ڿ�b����b
+                                                                            \���VX:     b����E�����3�
+                                                                                                     p����<�Ɠ�Y�TO���@�V������K�!�R�[�3s�3T�X���l_�U�۾�b'~�^�~��O�g��a-
+               \10�IJ�`{>GE(4X��d��,o�
+                                      �{�y��P��k ����&��cBo9�
+��q�E���                                                     OO��ol��^����Y�5Z�����,c0��<w��
+y�n�R�,�X͋c�/U�'�c��U*���hR�_F�]y~�@�5?/x]��U+�\��q!�D>�p��N9ǒ����J���r��Y5��$�X��:�y$xF��H"�����ێ��za�4V�!��cx$������,��}y�X�I߼1ɵa6m׶!�O<�8C�?�;��d�)x�����:�k-ޖ�u(ISİ�#�_�     ���-�5�[ce���<j��
+                                         �!槊���Y�M���
+                                                      ���IaAl���ց���XYK5��:���ӿA���%�c
+                                                                                       �B'������MjO)�.�����A�B�
+CЦ;�r�3��W�F�<�x˷��~���Ï��o��}�;���$P�\ӕ��                                                                     �p�4�
+                                          ��T��P�_{���`'��53J�Y��L0a����-��
+��$X��
+      VM̖�g_�
+ch#�g�� G��IR��V;r,��"�� g9N�zMG˨5��qo�:jh�r�9�[]�2�K�X�v{�JO/�؊�>���Y�d|�m��w�(/az+��cC�YQ��Ut8�E5ezS�.�O�W�*QC}�bJ0�$
+Q��%y�F��$��������+���ݖ�/L��Z񙘙�&�{�C�+�w��g�d�f�P����Y�~�":@fɭ�:��uR�i���_�>�/�6��q���@�d��Z��h)�b'��bQ�J���$��W?�,{��|WH�h�s�G�
+                                                                                                                                  �||a���x����E'���
+                                                                                                                                                   ��L���%3�op@�W%��
+t@�.��"�v� ��L�"ԉ2n�;욁a������1,yL�2�"]�[�2s�mM�~��-�*_Xf�{����
+                                                               ҽOy��g3ˮmzxi�IM�����8F��LƗU)S�}>���
+                                                                                                  ����!��k��ؕ�#�        �0�z���"l��*I�cG���r"��JL��Z]�3.:Q.�w`x�
+      ��h���n���-v}��M"Bk3 DUERT/�gj��k����     M$��p�k?�v/Up
+                                                              �o�z��.�x�"ߵ+����K���"�>�"*�:p]��o1��.�:4�wwuWǴ�g�K
+̣�� FŅE��r:3�w54_y>x��Xs�\J�K�h|D�Eʤ9A������                                                                     G���E:h��կ�J�
+
+���j.ɝ�"�w!X��:_f�
+���PGh�S�1�D)�H�+Y
+                  -�L�`CF�l��@�9F(�Z��I�
+                                        �����S74y�a���}�g�2�.����Ϳ��
+                                                                    �MN�.K�-�aӨ��ɲ�tXָ8!�d��d�Pf�M�ρ#��6��t�CN6�����ۋ�!�9ޱ��q<��B�2�+e�O�͈]�1�gar�F?fB��w<�7q7�%!j>��G���~P;���<��Y�Ap�8����N��t�I�SQ!�=
+                        �����턴_�.��S��Ap�<�+�Q�.�~����C
+                                                        *���0g+����p�51[V*q��$��6���~K=�+BݍpoR��D��Հ6�5VK�9JM��FV_}J�I1�
+#�
+  ��=+�B��SL��Ͷ��(h<c�#C�L����pU��v(�yf��%A����~h��Ph�l���+ ׵�J��h�i�2��ynv�W��9�?Ͽ�1#r�eE�p"��EdC0�Q�F�F��w�u�Yo�0�����Z�      J%�vW�����t����c���yM�i�^��ˈ4�A8&�ݬ�.<��@*��5�?s�*������_~�s����g1D2@4{Qt�=���V`��X�=�(P������W�ݾ�Q��#v��|��`
+                                                                                     �9��W!z�uw^l{��M��wڨՔD��A�����m1�Y��y_���E!�K
+                                                                                                                                  jm�]��}?ۧ���8Q��HE�X�I��i�g#F���۪C����R�����>�=�#G�U�&,���x��@�����'�^��f\�G���<�       ^�ꏒVㄇv�Q����1*[@�(_>p��qD�*Y|]�x��A]o���v0<8��+z�=L�u����b��T�����3�P%O� D\5��f�f��{:x�C�����WFFX���
+El�T�ZXjV��'����4pT�읙�{'��SS� t�͑<�"t�@�W��;�P~4T�;;���U������O&��ك*ǃ�-��Sg|��
+                          "��,m���DLڕ�{����g��pN02���Ls�����i���xWz�4���]e�� �z��ߟ=�n4u�+"Er]p�Û�b�&ښh5�Z��0Q���Gy߸ǝ]�:��w�ZX�Gn
+                                                                                                                                 G�$�4_�q������`�b�+�ܨ-�y�n �&f�W�O�n��Z�3XsW���tԪM����\������i:ԩ$���B�e~�קSg�nl:�"P;��o�H0�)z�Ӭu��v����~`�ޘ���"A��i�i>Eʠ{���L��f�~NWmG�ȣ{�Jk<ak��^�s�Mk�?�/�a�(�<�L� c%+�>uE��n��|D�����a���^<,�˸�U�      �Z�Ɂ�J6��)ސN��t$-�������̤�`^#C��Yk[o�&����
+
+e�A��v/�d�>=��p�"z�\�/�E�g��ʚ^Fϼɇ��Wsy:陭=Տռ�Pb�90�ͪ�?DW���Âm�1���m��_�J(���K��}�l)G�V������*�Q��6�Ek+����{��n���+�n5�&��]2�j�9��l��\:�:rG.�R��"���σ�52�dQ�ݡc�`���{����d�0J'0�c�(U����{�>X�p-
+=�c6��j�@� �Y(���A�sy�$�~!lfph��D��+�N�
+                                       � �'�.~Z�b/le�Q��|s���*��
+q1?�u����d�1�>�0S�H}����<��eǺ
+                             �l�cݶ���zb]3�����b��<_�@F��T�l1��Z�����a�����K]��U
+                                                                               ��YF��U�.m��04���et�A���`�@�$t�ܠ�ػ�f1+~/�Cy
+����m�����z!��q�3�"����0єS>���'e��}��k�N��n��   �1�ɿ�u".�=�;tځ�G5
+                                                                 ��z-,v����.A�����,
+parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice/Practice_Git$ touch example{1..3}.py
+parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice/Practice_Git$ nano example1.py
+parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice/Practice_Git$ python3 example1.py
+  File "/mnt/c/Users/91989/PycharmProject/Final_Practice/Practice_Git/example1.py", line 1
+    a=int(input("Enter number1:")
+          ^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice/Practice_Git$ nano example1.py
+parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice/Practice_Git$ python3 example.py
+python3: can't open file '/mnt/c/Users/91989/PycharmProject/Final_Practice/Practice_Git/example.py': [Errno 2] No such file or directory
+parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice/Practice_Git$ python3 example1.py
+Enter number1:12
+Enter number2:23
+35
+parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice/Practice_Git$ pyhton3
+Command 'pyhton3' not found, did you mean:
+  command 'python3' from deb python3 (3.10.6-1~22.04.1)
+Try: sudo apt install <deb name>
+parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice/Practice_Git$ python3
+Python 3.10.12 (main, Jan  8 2026, 06:52:19) [GCC 11.4.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> print(3+4)
+7
+>>> 4+5
+9
+>>> exit()
+parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice/Practice_Git$ python3 venv/bin/activate
+python3: can't open file '/mnt/c/Users/91989/PycharmProject/Final_Practice/Practice_Git/venv/bin/activate': [Errno 2] No such file or directory
+parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice/Practice_Git$ touch venv/bin/actiavte
+touch: cannot touch 'venv/bin/actiavte': No such file or directory
+parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice/Practice_Git$ python3 -m venv venv
+parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice/Practice_Git$ source venv/bin/activate
+(venv) parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice/Practice_Git$ uv pip install pandas
+Using Python 3.10.12 environment at: venv
+Resolved 6 packages in 2.23s
+░░░░░░░░░░░░░░░░░░░░ [0/6] Installing wheels...                                                                                                           warning: Failed to hardlink files; falling back to full copy. This may lead to degraded performance.                                                      
+         If the cache and target directories are on different filesystems, hardlinking may not be supported.
+         If this is intentional, set `export UV_LINK_MODE=copy` or use `--link-mode=copy` to suppress this warning.
+Installed 6 packages in 1m 33s
+ + numpy==2.2.6
+ + pandas==2.3.3
+ + python-dateutil==2.9.0.post0
+ + pytz==2025.2
+ + six==1.17.0
+ + tzdata==2025.3
+(venv) parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice/Practice_Git$ uv remove numpy
+warning: `VIRTUAL_ENV=venv` does not match the project environment path `/mnt/c/Users/91989/PycharmProject/Final_Practice/.venv` and will be ignored; use `--active` to target the active environment instead
+Resolved 218 packages in 8.04s
+Uninstalled 1 package in 40.74s
+ - numpy==2.4.1
+(venv) parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice/Practice_Git$ uv pip uninstall pandas
+Using Python 3.10.12 environment at: venv
+Uninstalled 1 package in 56.36s
+ - pandas==2.3.3
+(venv) parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice/Practice_Git$ git init .
+hint: Using 'master' as the name for the initial branch. This default branch name
+hint: is subject to change. To configure the initial branch name to use in all
+hint: of your new repositories, which will suppress this warning, call:
+hint: 
+hint:   git config --global init.defaultBranch <name>
+hint: 
+hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+hint: 'development'. The just-created branch can be renamed via this command:
+hint: 
+hint:   git branch -m <name>
+Initialized empty Git repository in /mnt/c/Users/91989/PycharmProject/Final_Practice/Practice_Git/.git/
+(venv) parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice/Practice_Git$ git branch
+(venv) parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice/Practice_Git$ git branch
+(venv) parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice/Practice_Git$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        README.md
+        example.txt
+        example1.py
+        example2.py
+        example3.py
+        main.py
+        pyproject.toml
+        venv/
+
+nothing added to commit but untracked files present (use "git add" to track)
+(venv) parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice/Practice_Git$ git log
+fatal: your current branch 'master' does not have any commits yet
+(venv) parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice/Practice_Git$ touch .gitignore
+(venv) parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice/Practice_Git$ nano .gitignore
+(venv) parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice/Practice_Git$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .gitignore
+        README.md
+        example.txt
+        example1.py
+        example2.py
+        example3.py
+        main.py
+        pyproject.toml
+        venv/
+
+nothing added to commit but untracked files present (use "git add" to track)
+(venv) parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice/Practice_Git$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .gitignore
+        README.md
+        example.txt
+        example1.py
+        example2.py
+        example3.py
+        main.py
+
+nothing added to commit but untracked files present (use "git add" to track)
+(venv) parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice/Practice_Git$ git add .
+(venv) parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice/Practice_Git$ git commit -m "first commit"
+[master (root-commit) 4c76df0] first commit
+ 7 files changed, 11 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 README.md
+ create mode 100644 example.txt
+ create mode 100644 example1.py
+ create mode 100644 example2.py
+ create mode 100644 example3.py
+ create mode 100644 main.py
+(venv) parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice/Practice_Git$ git log
+commit 4c76df08aeb9162fc456259413ed29c6ba739bce (HEAD -> master)
+Author: Parmeet Singh <parmsingh9899@gmail.com>
+Date:   Thu Jan 29 18:43:58 2026 +0530
+
+    first commit
+(venv) parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice/Practice_Git$ git checkout -b dev
+Switched to a new branch 'dev'
+(venv) parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice/Practice_Git$ touch messi.py
+(venv) parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice/Practice_Git$ nano messi.py
+(venv) parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice/Practice_Git$ git add messi.py
+(venv) parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice/Practice_Git$ git commit -m "messi"
+[dev 7ea8673] messi
+ 1 file changed, 1 insertion(+)
+ create mode 100644 messi.py
+(venv) parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice/Practice_Git$ git log
+commit 7ea8673e881361a06d81b3575eec5d468f2dd9e4 (HEAD -> dev)
+Author: Parmeet Singh <parmsingh9899@gmail.com>
+Date:   Thu Jan 29 18:45:17 2026 +0530
+
+    messi
+
+commit 4c76df08aeb9162fc456259413ed29c6ba739bce (master)
+Author: Parmeet Singh <parmsingh9899@gmail.com>
+Date:   Thu Jan 29 18:43:58 2026 +0530
+
+    first commit
+(venv) parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice/Practice_Git$ git checkout master
+Switched to branch 'master'
+(venv) parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice/Practice_Git$ git branch
+  dev
+* master
+(venv) parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice/Practice_Git$ git config --global user.name
+Parmeet Singh
+(venv) parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice/Practice_Git$ git config --global user.email
+parmsingh9899@gmail.com
+(venv) parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice/Practice_Git$ git config --edit
+(venv) parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice/Practice_Git$ git config global --edit
+error: key does not contain a section: global
+(venv) parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice/Practice_Git$ git config --global --edit
+(venv) parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice/Practice_Git$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   example2.py
+
+no changes added to commit (use "git add" and/or "git commit -a")
+(venv) parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice/Practice_Git$ git commit -mf "example2"
+error: pathspec 'example2' did not match any file(s) known to git
+(venv) parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice/Practice_Git$ git commit -am "example2"
+[master 905738b] example2
+ 1 file changed, 1 insertion(+)
+(venv) parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice/Practice_Git$ git log
+commit 905738b0e89b66410a73777701d9e7933542b9ac (HEAD -> master)
+Author: Parmeet Singh <parmsingh9899@gmail.com>
+Date:   Thu Jan 29 18:50:00 2026 +0530
+
+    example2
+
+commit 4c76df08aeb9162fc456259413ed29c6ba739bce
+Author: Parmeet Singh <parmsingh9899@gmail.com>
+Date:   Thu Jan 29 18:43:58 2026 +0530
+
+    first commit
+(venv) parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice/Practice_Git$ git remote add origin https://github.com/parmsingh9899-hue/Final_Practice.git
+(venv) parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice/Practice_Git$ git remote -v
+origin  https://github.com/parmsingh9899-hue/Final_Practice.git (fetch)
+origin  https://github.com/parmsingh9899-hue/Final_Practice.git (push)
+(venv) parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice/Practice_Git$ git branch -M master
+(venv) parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice/Practice_Git$ git push -u origin master
+Enumerating objects: 10, done.
+Counting objects: 100% (10/10), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (10/10), 4.79 KiB | 27.00 KiB/s, done.
+Total 10 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/parmsingh9899-hue/Final_Practice.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+(venv) parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice/Practice_Git$ git push -u origin dev
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 298 bytes | 4.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+remote: 
+remote: Create a pull request for 'dev' on GitHub by visiting:
+remote:      https://github.com/parmsingh9899-hue/Final_Practice/pull/new/dev
+remote: 
+To https://github.com/parmsingh9899-hue/Final_Practice.git
+ * [new branch]      dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
+(venv) parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice/Practice_Git$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   example2.py
+
+no changes added to commit (use "git add" and/or "git commit -a")
+(venv) parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice/Practice_Git$ git commit -am "example2 modified"
+[master 0345aee] example2 modified
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+(venv) parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice/Practice_Git$ git branch
+  dev
+* master
+(venv) parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice/Practice_Git$ git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 298 bytes | 4.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/parmsingh9899-hue/Final_Practice.git
+   905738b..0345aee  master -> master
+(venv) parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice/Practice_Git$ git log
+commit 0345aeec8f72b6bcc50d2420407e14d2c3a89d87 (HEAD -> master, origin/master)
+Author: Parmeet Singh <parmsingh9899@gmail.com>
+Date:   Thu Jan 29 18:53:31 2026 +0530
+
+commit 0345aeec8f72b6bcc50d2420407e14d2c3a89d87 (HEAD -> master, origin/master)
+Author: Parmeet Singh <parmsingh9899@gmail.com>
+Date:   Thu Jan 29 18:53:31 2026 +0530
+
+    example2 modified
+
+commit 905738b0e89b66410a73777701d9e7933542b9ac
+Author: Parmeet Singh <parmsingh9899@gmail.com>
+Date:   Thu Jan 29 18:50:00 2026 +0530
+
+    example2
+
+commit 4c76df08aeb9162fc456259413ed29c6ba739bce
+(venv) parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice/Practice_Git$ git clone https://github.com/parmsingh9899-hue/First-Contribution.git
+Cloning into 'First-Contribution'...
+remote: Enumerating objects: 20, done.
+remote: Counting objects: 100% (4/4), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 20 (delta 1), reused 3 (delta 1), pack-reused 16 (from 1)
+Receiving objects: 100% (20/20), done.
+Resolving deltas: 100% (1/1), done.
+(venv) parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice/Practice_Git$ cd First_Contribution
+-bash: cd: First_Contribution: No such file or directory
+(venv) parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice/Practice_Git$ cd First-Contribution
+(venv) parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice/Practice_Git/First-Contribution$ nano README.md
+(venv) parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice/Practice_Git/First-Contribution$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+(venv) parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice/Practice_Git/First-Contribution$ git commit -am "contribution"
+[master c35feec] contribution
+ 1 file changed, 1 insertion(+)
+(venv) parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice/Practice_Git/First-Contribution$ git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 303 bytes | 5.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/parmsingh9899-hue/First-Contribution.git
+   c49049d..c35feec  master -> master
+(venv) parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice/Practice_Git/First-Contribution$ git branch
+* master
+(venv) parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice/Practice_Git/First-Contribution$ cd ..
+(venv) parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice/Practice_Git$ touch practice.txt
+(venv) parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice/Practice_Git$ 
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Install the latest PowerShell for new features and improvements! https://aka.ms/PSWindows
+
+(.venv) PS C:\Users\91989\PycharmProject\Final_Practice> wsl 
+wsl: Failed to start the systemd user session for 'parmeet'. See journalctl for more details.
+Welcome to Ubuntu 22.04.5 LTS (GNU/Linux 6.6.87.2-microsoft-standard-WSL2 x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/pro
+
+ System information as of Tue Jan 27 08:54:36 IST 2026
+
+  System load:  3.86                Processes:             25
+  Usage of /:   0.3% of 1006.85GB   Users logged in:       0
+  Memory usage: 9%                  IPv4 address for eth0: 172.19.39.50
+  Swap usage:   0%
+
+  => There are 10 zombie processes.
+
+ * Strictly confined Kubernetes makes edge and IoT secure. Learn how MicroK8s
+   just raised the bar for easy, resilient and secure K8s cluster deployment.
+
+   https://ubuntu.com/engage/secure-kubernetes-at-the-edge
+
+This message is shown once a day. To disable it please create the
+/home/parmeet/.hushlogin file.
+parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice$ whoami
+parmeet
+parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice$ pwd
+/mnt/c/Users/91989/PycharmProject/Final_Practice
+parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice$ mkdir Practice_Git
+parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice$ ls 
+Practice_Git  cleaning_Data.py   final_cleaning.csv  main.py   main3.py        self_healing_Api_Cleint.py  uv.lock
+README.md     cleaning_data.csv  image.py            main2.py  pyproject.toml  test.log
+parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice$ ls -l
+total 472
+drwxrwxrwx 1 parmeet parmeet   4096 Jan 29  2026 Practice_Git
+-rwxrwxrwx 1 parmeet parmeet      0 Jan 29 14:14 README.md
+-rwxrwxrwx 1 parmeet parmeet   1453 Jan 29 14:55 cleaning_Data.py
+-rwxrwxrwx 1 parmeet parmeet   2372 Jan 29 14:31 cleaning_data.csv
+-rwxrwxrwx 1 parmeet parmeet   1700 Jan 29 14:55 final_cleaning.csv
+-rwxrwxrwx 1 parmeet parmeet    189 Jan 29 14:29 image.py
+-rwxrwxrwx 1 parmeet parmeet   1040 Jan 29 09:55 main.py
+-rwxrwxrwx 1 parmeet parmeet    343 Jan 29 13:47 main2.py
+-rwxrwxrwx 1 parmeet parmeet   1227 Jan 29 14:12 main3.py
+-rwxrwxrwx 1 parmeet parmeet    205 Jan 29 14:19 pyproject.toml
+-rwxrwxrwx 1 parmeet parmeet    313 Jan 29 15:04 self_healing_Api_Cleint.py
+-rwxrwxrwx 1 parmeet parmeet   1601 Jan 29 09:55 test.log
+-rwxrwxrwx 1 parmeet parmeet 458221 Jan 29 14:19 uv.lock
+parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice$ ls -a
+.   .git        .idea            .venv         README.md         cleaning_data.csv   image.py  main2.py  pyproject.toml              test.log
+..  .gitignore  .python-version  Practice_Git  cleaning_Data.py  final_cleaning.csv  main.py   main3.py  self_healing_Api_Cleint.py  uv.lock
+parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice$ cd Practice_Git
+parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice/Practice_Git$ cd ..
+parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice$ cd ~
+parmeet@Parmeet:~$ cd
+parmeet@Parmeet:~$ cd
+parmeet@Parmeet:~$ cd /mnt/c/Users/91989/PycharmProject/Final_Practice
+parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice$ python --version
+Command 'python' not found, did you mean:
+  command 'python3' from deb python3
+  command 'python' from deb python-is-python3
+parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice$ python3 --version
+Python 3.10.12
+parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice$ uv --version
+uv 0.9.24
+parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice$ su dan
+Password: 
+dan@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice$ whoami
+dan
+dan@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice$ su parmeet
+Password: 
+parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice$ sudo apt update
+[sudo] password for parmeet: 
+Sorry, try again.
+[sudo] password for parmeet: 
+Hit:1 http://archive.ubuntu.com/ubuntu jammy InRelease                                                   
+Get:2 http://archive.ubuntu.com/ubuntu jammy-updates InRelease [128 kB]                                  
+Get:3 http://security.ubuntu.com/ubuntu jammy-security InRelease [129 kB]  
+Get:4 http://archive.ubuntu.com/ubuntu jammy-backports InRelease [127 kB]
+Get:5 http://security.ubuntu.com/ubuntu jammy-security/main amd64 Packages [2905 kB]
+Get:6 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 Packages [3165 kB]
+Get:7 http://security.ubuntu.com/ubuntu jammy-security/main amd64 c-n-f Metadata [14.1 kB]                                                               
+Get:8 http://security.ubuntu.com/ubuntu jammy-security/restricted amd64 Packages [4947 kB]                                                               
+Get:9 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 c-n-f Metadata [19.2 kB]                                                                 
+Get:10 http://archive.ubuntu.com/ubuntu jammy-updates/universe amd64 Packages [1249 kB]                                                                  
+Get:11 http://security.ubuntu.com/ubuntu jammy-security/restricted Translation-en [929 kB]                                                               
+Get:12 http://security.ubuntu.com/ubuntu jammy-security/restricted amd64 c-n-f Metadata [680 B]                                                          
+Get:13 http://security.ubuntu.com/ubuntu jammy-security/universe amd64 Packages [1012 kB]                                                                
+Get:14 http://archive.ubuntu.com/ubuntu jammy-updates/universe Translation-en [311 kB]                                                                   
+Get:15 http://security.ubuntu.com/ubuntu jammy-security/universe Translation-en [222 kB]                                                                 
+Get:16 http://archive.ubuntu.com/ubuntu jammy-updates/universe amd64 c-n-f Metadata [30.2 kB]                                                            
+Get:17 http://security.ubuntu.com/ubuntu jammy-security/universe amd64 c-n-f Metadata [22.5 kB]                                                          
+Get:18 http://security.ubuntu.com/ubuntu jammy-security/multiverse amd64 Packages [51.9 kB]                                                              
+Get:19 http://security.ubuntu.com/ubuntu jammy-security/multiverse Translation-en [10.6 kB]                                                              
+Get:20 http://security.ubuntu.com/ubuntu jammy-security/multiverse amd64 c-n-f Metadata [388 B]                                                          
+Fetched 15.3 MB in 15s (1033 kB/s)                                                                                                                       
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+14 packages can be upgraded. Run 'apt list --upgradable' to see them.
+parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice$ sudo apt install finger
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+The following NEW packages will be installed:
+  finger
+0 upgraded, 1 newly installed, 0 to remove and 14 not upgraded.
+Need to get 16.9 kB of archives.
+After this operation, 51.2 kB of additional disk space will be used.
+Get:1 http://archive.ubuntu.com/ubuntu jammy/universe amd64 finger amd64 0.17-17 [16.9 kB]
+Fetched 16.9 kB in 2s (8639 B/s)                    
+Selecting previously unselected package finger.
+(Reading database ... 51570 files and directories currently installed.)
+Preparing to unpack .../finger_0.17-17_amd64.deb ...
+
+Progress: [  0%] [....................................................................................................................................]   
+Unpacking finger (0.17-17) ...##############..........................................................................................................]   
+
+Setting up finger (0.17-17) ...#######################################................................................................................]   
+
+Progress: [ 60%] [###############################################################################.....................................................]   
+Processing triggers for man-db (2.10.2-1) ...##############################################################################...........................]   
+parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice$ su useradd
+su: user useradd does not exist or the user entry does not contain all the required fields
+parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice$ su useradd micheal
+su: user useradd does not exist or the user entry does not contain all the required fields
+parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice$ sudo useradd mikeal
+parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice$ sudo adduser misty
+Adding user `misty' ...
+Adding new group `misty' (1015) ...
+Adding new user `misty' (1015) with group `misty' ...
+Creating home directory `/home/misty' ...
+Copying files from `/etc/skel' ...
+New password: 
+Retype new password: 
+passwd: password updated successfully
+Changing the user information for misty
+Enter the new value, or press ENTER for the default
+        Full Name []: 
+        Room Number []: 
+        Work Phone []: 
+        Home Phone []: 
+        Other []: 
+Is the information correct? [Y/n] Y
+parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice$ cd
+parmeet@Parmeet:~$ cd /mnt/c/Users/91989/PycharmProject/Final_Practice
+parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice$ pwd
+/mnt/c/Users/91989/PycharmProject/Final_Practice
+parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice$ touch example.txt
+parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice$ cp example.txt ./Practice_Git/example.txt
+parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice$ mv example.txt ./Practice_Git/example.txt
+parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice$ mkdir Example
+parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice$ cd Example
+parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice/Example$ touch test.py
+parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice/Example$ rm test.py
+parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice/Example$ touch test{1..5}.py
+parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice/Example$ rm test{1..5}.py
+parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice/Example$ cd ..
+parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice$ rm Example
+rm: cannot remove 'Example': Is a directory
+parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice$ rm -f Example
+rm: cannot remove 'Example': Is a directory
+parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice$ rm -r Example
+parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice$ cd Practice_Git
+parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice/Practice_Git$ uv install numpy
+error: unrecognized subcommand 'install'
+
+  tip: a similar subcommand exists: 'uv pip install'
+
+Usage: uv [OPTIONS] <COMMAND>
+
+For more information, try '--help'.
+parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice/Practice_Git$ uv pip install numpy
+error: Failed to inspect Python interpreter from virtual environment at `/mnt/c/Users/91989/PycharmProject/Final_Practice/.venv/bin/python3`
+  Caused by: Python interpreter not found at `/mnt/c/Users/91989/PycharmProject/Final_Practice/.venv/bin/python3`
+parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice/Practice_Git$ python3 --version
+Python 3.10.12
+parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice/Practice_Git$ uv init .
+Adding `practice-git` as member of workspace `/mnt/c/Users/91989/PycharmProject/Final_Practice`
+Initialized project `practice-git` at `/mnt/c/Users/91989/PycharmProject/Final_Practice/Practice_Git`
+parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice/Practice_Git$ uv add numpy
+Using CPython 3.14.2
+
+Removed virtual environment at: /mnt/c/Users/91989/PycharmProject/Final_Practice/.venv
+Creating virtual environment at: /mnt/c/Users/91989/PycharmProject/Final_Practice/.venv
+Resolved 218 packages in 12.17s
+Prepared 1 package in 23.76s
+░░░░░░░░░░░░░░░░░░░░ [0/1] Installing wheels...                                                                                                           warning: Failed to hardlink files; falling back to full copy. This may lead to degraded performance.                                                      
+         If the cache and target directories are on different filesystems, hardlinking may not be supported.
+         If this is intentional, set `export UV_LINK_MODE=copy` or use `--link-mode=copy` to suppress this warning.
+Installed 1 package in 45.41s
+ + numpy==2.4.1
+parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice/Practice_Git$ 
+parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice/Practice_Git$ python3 venv/bin/activate
+python3: can't open file '/mnt/c/Users/91989/PycharmProject/Final_Practice/Practice_Git/venv/bin/activate': [Errno 2] No such file or directory
+parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice/Practice_Git$ python3 -m venv/bin/activate
+/usr/bin/python3: No module named venv/bin/activate
+parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice/Practice_Git$ source venv/bin/actiavte
+bash: venv/bin/actiavte: No such file or directory
+parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice/Practice_Git$ source venv/bin/activate
+(venv) parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice/Practice_Git$ deactivate
+parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice/Practice_Git$ nano practice.txt
