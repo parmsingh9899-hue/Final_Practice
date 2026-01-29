@@ -609,3 +609,254 @@ bash: venv/bin/actiavte: No such file or directory
 parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice/Practice_Git$ source venv/bin/activate
 (venv) parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice/Practice_Git$ deactivate
 parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice/Practice_Git$ nano practice.txt
+armsingh9899@gmail.com
+(venv) parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice/Practice_Git$ git config --edit
+(venv) parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice/Practice_Git$ git config global --edit
+error: key does not contain a section: global
+(venv) parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice/Practice_Git$ git config --global --edit
+(venv) parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice/Practice_Git$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   example2.py
+
+no changes added to commit (use "git add" and/or "git commit -a")
+(venv) parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice/Practice_Git$ git commit -mf "example2"
+error: pathspec 'example2' did not match any file(s) known to git
+(venv) parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice/Practice_Git$ git commit -am "example2"
+[master 905738b] example2
+ 1 file changed, 1 insertion(+)
+(venv) parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice/Practice_Git$ git log
+commit 905738b0e89b66410a73777701d9e7933542b9ac (HEAD -> master)
+Author: Parmeet Singh <parmsingh9899@gmail.com>
+Date:   Thu Jan 29 18:50:00 2026 +0530
+
+    example2
+
+commit 4c76df08aeb9162fc456259413ed29c6ba739bce
+Author: Parmeet Singh <parmsingh9899@gmail.com>
+Date:   Thu Jan 29 18:43:58 2026 +0530
+
+    first commit
+(venv) parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice/Practice_Git$ git remote add origin https://github.com/parmsingh9899-hue/Final_Practice.git
+(venv) parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice/Practice_Git$ git remote -v
+origin  https://github.com/parmsingh9899-hue/Final_Practice.git (fetch)
+origin  https://github.com/parmsingh9899-hue/Final_Practice.git (push)
+(venv) parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice/Practice_Git$ git branch -M master
+(venv) parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice/Practice_Git$ git push -u origin master
+Enumerating objects: 10, done.
+Counting objects: 100% (10/10), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (10/10), 4.79 KiB | 27.00 KiB/s, done.
+Total 10 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/parmsingh9899-hue/Final_Practice.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+(venv) parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice/Practice_Git$ git push -u origin dev
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 298 bytes | 4.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+remote:
+remote: Create a pull request for 'dev' on GitHub by visiting:
+remote:      https://github.com/parmsingh9899-hue/Final_Practice/pull/new/dev
+remote:
+To https://github.com/parmsingh9899-hue/Final_Practice.git
+ * [new branch]      dev -> dev
+Branch 'dev' set up to track remote branch 'dev' from 'origin'.
+(venv) parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice/Practice_Git$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   example2.py
+
+no changes added to commit (use "git add" and/or "git commit -a")
+(venv) parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice/Practice_Git$ git commit -am "example2 modified"
+[master 0345aee] example2 modified
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+(venv) parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice/Practice_Git$ git branch
+  dev
+* master
+(venv) parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice/Practice_Git$ git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 298 bytes | 4.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/parmsingh9899-hue/Final_Practice.git
+   905738b..0345aee  master -> master
+(venv) parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice/Practice_Git$ git log
+commit 0345aeec8f72b6bcc50d2420407e14d2c3a89d87 (HEAD -> master, origin/master)
+Author: Parmeet Singh <parmsingh9899@gmail.com>
+Date:   Thu Jan 29 18:53:31 2026 +0530
+
+commit 0345aeec8f72b6bcc50d2420407e14d2c3a89d87 (HEAD -> master, origin/master)
+Author: Parmeet Singh <parmsingh9899@gmail.com>
+Date:   Thu Jan 29 18:53:31 2026 +0530
+
+    example2 modified
+
+commit 905738b0e89b66410a73777701d9e7933542b9ac
+Author: Parmeet Singh <parmsingh9899@gmail.com>
+Date:   Thu Jan 29 18:50:00 2026 +0530
+
+    example2
+
+commit 4c76df08aeb9162fc456259413ed29c6ba739bce
+(venv) parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice/Practice_Git$ git clone https://github.com/parmsingh9899-hue/First-Contribution.git
+Cloning into 'First-Contribution'...
+remote: Enumerating objects: 20, done.
+remote: Counting objects: 100% (4/4), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 20 (delta 1), reused 3 (delta 1), pack-reused 16 (from 1)
+Receiving objects: 100% (20/20), done.
+Resolving deltas: 100% (1/1), done.
+(venv) parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice/Practice_Git$ cd First_Contribution
+-bash: cd: First_Contribution: No such file or directory
+(venv) parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice/Practice_Git$ cd First-Contribution
+(venv) parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice/Practice_Git/First-Contribution$ nano README.md
+(venv) parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice/Practice_Git/First-Contribution$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+(venv) parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice/Practice_Git/First-Contribution$ git commit -am "contribution"
+[master c35feec] contribution
+ 1 file changed, 1 insertion(+)
+(venv) parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice/Practice_Git/First-Contribution$ git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 303 bytes | 5.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/parmsingh9899-hue/First-Contribution.git
+   c49049d..c35feec  master -> master
+(venv) parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice/Practice_Git/First-Contribution$ git branch
+* master
+(venv) parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice/Practice_Git/First-Contribution$ cd ..
+(venv) parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice/Practice_Git$ touch practice.txt
+(venv) parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice/Practice_Git$ nano practice.txt
+(venv) parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice/Practice_Git$ git branch\
+> wq
+git: 'branchwq' is not a git command. See 'git --help'.
+(venv) parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice/Practice_Git$ git barnch
+
+git: 'barnch' is not a git command. See 'git --help'.
+
+The most similar command is
+        branch
+(venv) parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice/Practice_Git$
+(venv) parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice/Practice_Git$ git branch
+  dev
+* master
+(venv) parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice/Practice_Git$ git merge dev
+Merge made by the 'ort' strategy.
+ messi.py | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 100644 messi.py
+(venv) parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice/Practice_Git$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        First-Contribution/
+        practice.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+(venv) parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice/Practice_Git$ ls
+First-Contribution  README.md  example.txt  example1.py  example2.py  example3.py  main.py  messi.py  practice.txt  pyproject.toml  venv
+(venv) parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice/Practice_Git$ git checkout dev
+Switched to branch 'dev'
+Your branch is up to date with 'origin/dev'.
+(venv) parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice/Practice_Git$ ls
+First-Contribution  README.md  example.txt  example1.py  example2.py  example3.py  main.py  messi.py  practice.txt  pyproject.toml  venv
+(venv) parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice/Practice_Git$ nano .gitignore
+(venv) parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice/Practice_Git$ git satus
+git: 'satus' is not a git command. See 'git --help'.
+
+The most similar command is
+        status
+(venv) parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice/Practice_Git$ git status
+On branch dev
+Your branch is up to date with 'origin/dev'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   .gitignore
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        practice.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+(venv) parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice/Practice_Git$ git rm --cached .gitignore
+rm '.gitignore'
+(venv) parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice/Practice_Git$ git status
+On branch dev
+Your branch is up to date with 'origin/dev'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        deleted:    .gitignore
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .gitignore
+        practice.txt
+
+(venv) parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice/Practice_Git$ git status
+On branch dev
+Your branch is up to date with 'origin/dev'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        deleted:    .gitignore
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        practice.txt
+
+(venv) parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice/Practice_Git$ git add .
+(venv) parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice/Practice_Git$ git commit -m "practice.txt
+> wq
+> :wq
+> wq
+> wq
+> ^C
+(venv) parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice/Practice_Git$  git commit -m "practice.txt"
+[dev b11f88c] practice.txt
+ 2 files changed, 611 insertions(+), 2 deletions(-)
+ delete mode 100644 .gitignore
+ create mode 100644 practice.txt
+(venv) parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice/Practice_Git$ git push
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 8.91 KiB | 233.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/parmsingh9899-hue/Final_Practice.git
+   7ea8673..b11f88c  dev -> dev
+(venv) parmeet@Parmeet:/mnt/c/Users/91989/PycharmProject/Final_Practice/Practice_Git$
